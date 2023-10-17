@@ -5,7 +5,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 //Mongoose Connection - connect directly to the marketplace database
-mongoose.connect('mongodb+srv://hodginsbusiness:RA4Lbc5cwSTT8fJR@301332994a2.vkv4pki.mongodb.net/Marketplace', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('see zip file on Centennial', { useNewUrlParser: true, useUnifiedTopology: true })
 .then(() => {
     console.log('Connected to MongoDB');
   })
